@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 全排列
+ * 全组合
  * @author huangweiyu
  * @version V1.0
  * @Title: 描述
