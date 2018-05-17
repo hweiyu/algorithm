@@ -54,7 +54,7 @@ public class YangHuiTriangle {
             }
             for (Integer cur : result.get(i)) {
                 str = space + cur;
-                System.out.print(str.substring(str.length() - 6, str.length()));
+                System.out.print(str.substring(str.length() - space.length(), str.length()));
             }
             System.out.println();
         }
