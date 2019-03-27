@@ -26,7 +26,7 @@ public class T001FindPlusNumIndex {
         int target = 9;
         for (int i = 0; i < numArr.length - 1; i++) {
             for (int j = i + 1; j < numArr.length; j++) {
-                if (numArr[i] + numArr[j] == target) {
+                if (numArr[i] != numArr[j] && numArr[i] + numArr[j] == target) {
                     System.out.println("[" + i + "," + j + "]");
                 }
             }
